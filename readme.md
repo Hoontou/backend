@@ -42,9 +42,12 @@ DOCKER, GIT
 
 사용자 인증과 JWT 토큰 관리.
 
+
 ### [/epson](https://github.com/AIGOO-Epson/backend/tree/main/main-server/src/modules/epson)
 
 EPSON CONNECT API를 사용해 복합기를 원격 제어 or 관리.
+
+[epson.service.ts⭐](https://github.com/AIGOO-Epson/backend/blob/main/main-server/src/modules/epson/epson.service.ts)
 
 ### [/korean-analyze](https://github.com/AIGOO-Epson/backend/tree/main/main-server/src/modules/korean-analyze)
 
@@ -53,6 +56,9 @@ ETRI NLU OPEN API를 사용해 한국어 문장을 분석.
 ### [/letter](https://github.com/AIGOO-Epson/backend/tree/main/main-server/src/modules/letter)
 
 다른 모듈들과 협력해 손편지를 저장, 분석.
+
+[letter.service.ts⭐](https://github.com/AIGOO-Epson/backend/blob/main/main-server/src/modules/letter/letter.service.ts)
+
 
 ### [/study](https://github.com/AIGOO-Epson/backend/tree/main/main-server/src/modules/study)
 
@@ -64,7 +70,7 @@ Google Gemini,를 사용해 한국어 번역, 학습자료 생성.
 
 Naver CLOVA OCR 를 사용해 손편지에서 텍스트 추출.
 
-### [/upload](https://github.com/AIGOO-Epson/backend/tree/main/main-server/src/modules/upload)
+### [/upload⭐](https://github.com/AIGOO-Epson/backend/tree/main/main-server/src/modules/upload)
 
 아이고의 사진, 손편지, 학습자료 등을 Azure Storage에 업로드.
 
